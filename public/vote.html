@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vote</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body id="column" onload="display_candidates();">
+    <main>
+      <h1>VOTE</h1>
+      <label for="fname">StudentID:</label>
+      <input type="text" id="studid" name="studid">
+      <br>
+      <br>
+      <button onclick="add_voters();">Vote</button>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button><a id="decoration" href="poll_simulator.html">Back</a></button>
+    </main>
+    <script src="poll.js"></script>
+  </body>
+</html>

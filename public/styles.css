@@ -1,0 +1,41 @@
+main{
+  text-align: center;
+  list-style: none;
+}
+
+input[type="radio" i] {
+  position: absolute;
+  left: 850px;
+}
+
+#la {
+  margin-left: 700px;
+}
+
+#list{
+  margin-top: 200px;
+  text-align: center;
+}
+
+#result{
+  margin-top: 200px;
+  text-align: center;
+}
+
+#decoration{
+  text-decoration: none;
+}
+
+#column{
+  background-color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+#list_column{
+  margin-top: 200px;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 20px;
+}

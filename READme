@@ -1,0 +1,31 @@
+Name: Henal P. Mehta
+ID: 202012005
+MScIT (Sem - III) 
+IT618 Enterprise Computing
+
+Technologies Used: HTML, CSS, and JavaScript.
+
+Functionalities performed:
+--> poll_simulator.html: Homepage contains all the options/links different functionalities to be performed.
+--> add_candidates.html: Input's names of candidates and will add if eligible. Also, it will show a popup as soon as a candidate is added.
+--> vote.html: Allows to vote after giving input of student id and restrict vote from the same ID if any. Also, it will show a popup on successful voting or unsuccessful voting. 
+--> poll_result.html: Counts the maximum and minimum votes.
+--> voting_summary.html: It will generate the final Voting Report i.e. total votes of each candidate.
+
+-->styles.css: Normal CSS styling for all above files.
+
+As the application needs to work without any database, local storage is implemented in order to make this application.
+
+-->poll.js:
+-->add_candidates: The data provided will be fetched and then it will be stored in an Array through local storage. It will store the registered candidates and will restrict them from registering again.
+-->vote: The user can vote for any candidates from display_candidates.
+-->poll_result: It will provide the result of the election, by counting the maximum(maxi) and minimum(mini) number of votes acquired by the candidate.
+-->voting_summary: This will provide the names of the candidates and the votes acquired respectively.
+
+
+Instructions for how to run:
+First install all the dependencies by:
+   npm install
+Now,
+To run the application:
+   npm start
